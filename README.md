@@ -8,11 +8,11 @@ You may use any programming language you know, but we are primarily interested i
 ## Goals:
 1. **DO NOT LOSE ANY DATA**
 2. **Correct the data doing the following Tasks**
-  - `first_name` and `last_name` need to be standardized into title case (Ex: SMITH or smith should be changed to Smith).
-  - `username` field should have all the content formatted to lowercase.  
-  - Both `start_date` and `end_date` fields should be modified to be mm/dd/yyyy format. (Ex: 12/02/2020) 
-  - Content inside the `content` section should have the `data_embed(%%)` removed and should just be represented as a string in that column.   
-  - Save the updated csv as `corrected_data.csv` 
+   - `first_name` and `last_name` need to be standardized into title case (Ex: SMITH or smith should be changed to Smith).
+   - `username` field should have all the content formatted to lowercase.  
+   - Both `start_date` and `end_date` fields should be modified to be mm/dd/yyyy format. (Ex: 12/02/2020) 
+   - Content inside the `content` section should have the `data_embed(%%)` removed and should just be represented as a string in that column.   
+   - Save the updated csv as `corrected_data.csv` 
 3. **Bonus:** Identify and correct the `uuid` section for any records that have duplicate `uuid`.  Put all of the `id` numbers of rows that have duplicate `uuid` numbers in a sperate text file named `bonus.txt`.
 4. Save the code you wrote as `csv_fix_#{lastname}_#{firstname}` changing lastname and firstname to your names. 
 5. Attach instructions to run your code as a `README.md` file. 
